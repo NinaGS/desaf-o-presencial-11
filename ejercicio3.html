@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js">
+
+	</script>
+</head>
+
+<body>
+	<script>
+  			$(document).ready(function() {
+  				$('.cursos').append(" Con desafio LATAM");
+
+  				$(window).on("click", function(){
+  					$("#eventoClick").text("prueba");
+  				});
+			});
+
+
+
+	</script>
+
+
+	<h4 class="cursos">Cambiar Texto</h4>
+	<br>
+		<p>Para cambiar texto debes ingresar a la consolar del Log: </p>
+		<br>
+		<ol>
+			<li>Ingresar a la consola del navegador</li>
+			<li><span>Ingresar el siguiente codigo: </span> <br>
+				jQuery("h4").text("Asi cambiamos el titulo");
+			</li>
+		</ol>	
+
+
+	<h4 class="eventoClick">Eventos con Clicks</h4>
+	<br>
+	<p>contador de Click</p>
+	<br>
+	<p>Haz click en cualquier zona de la pagina web</p>&nbsp;<p id="numero">1</p>
+
+	<h4 class="cursos">CSS JQUERY</h4>
+
+</body>
+</html>	
